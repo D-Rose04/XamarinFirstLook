@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinExample.MainPage"
+             Visual="Material"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout>
+            <Frame Margin="0,-2,0,-15" Padding="5">
+                <Frame Padding="5" CornerRadius="25">
+                    <Frame Padding="5" CornerRadius="20" BackgroundColor="#424242">
+                        <Frame BackgroundColor="#6d6d6d" CornerRadius="15" Padding="5">
+                            <SearchBar BackgroundColor="#6d6d6d" Placeholder="Buscar" 
+                           TextColor="#eceff1" PlaceholderColor="#eceff1"
+                           CancelButtonColor="#eceff1" HeightRequest="25"
+                           ></SearchBar>
+                        </Frame>
+                    </Frame>
+                </Frame>
+            </Frame>
+            
+            <FlexLayout Margin="0,5,0,0" Padding="0" HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Source="https://www.cinematerial.com/media/box-office/4513678.jpg" Aspect="AspectFill" Clicked="Hello"></ImageButton>
+                </Frame>
+
+                
+               <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Source="https://www.cinematerial.com/media/box-office/9032400.jpg" Aspect="AspectFill" Clicked="Hello"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/257717541_675869573396867_3531727935964199699_n_500x749.jpg?v=1637860324" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0" HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/king-richard_6pe8ee77_500x749.jpg?v=1637791988" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/lightyear_jnzbm10y_500x749.jpg?v=1637267898" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/fast-furious-6_1f36429ccopy_500x749.jpg?v=1636480899" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/chappie_11571e0e_500x749.jpg?v=1636477007" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/dune.tickets_500x749.jpg?v=1636405785" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/punisher_ver2_500x749.jpg?v=1636129391" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/matrixresurrections.ar_500x749.jpg?v=1636142441" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/the-kings-man_8jq3fgnx_500x749.jpg?v=1635442086" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/venom.ar_500x749.jpg?v=1635447813" Aspect="AspectFill"></ImageButton>
+                </Frame>
+            </FlexLayout>
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/8bb863dcbf11619ab938a55babcfa43e_fb5d6a31-4d21-4f13-a729-558fabc45713_500x749.jpg?v=1635430616" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/toystory.af_500x749.jpg?v=1635348944" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/black_phone_500x749.jpg?v=1634916575" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/54359_500x749.jpg?v=1633122213" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/2000_5e83818122070_500x749.jpg?v=1633027052" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/BB802BARBARIAN_500x749.jpg?v=1631911562" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

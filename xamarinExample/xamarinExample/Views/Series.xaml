@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinExample.Views.Series"
+             Visual="Material">
+
+    <ScrollView>
+        <StackLayout>
+            <Frame Margin="0,-2,0,-15" Padding="5">
+                <Frame Padding="5" CornerRadius="25">
+                    <Frame Padding="5" CornerRadius="20" BackgroundColor="#424242">
+                        <Frame BackgroundColor="#6d6d6d" CornerRadius="15" Padding="5">
+                            <SearchBar BackgroundColor="#6d6d6d" Placeholder="Buscar" 
+                           TextColor="#eceff1" PlaceholderColor="#eceff1"
+                           CancelButtonColor="#eceff1" HeightRequest="25"
+                           ></SearchBar>
+                        </Frame>
+                    </Frame>
+                </Frame>
+            </Frame>
+
+            <FlexLayout Margin="0,5,0,0" Padding="0" HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Source="https://sm.ign.com/ign_es/screenshot/h/hawkeye-fa/hawkeye-fall-2021-disneypstarring-jeremy-renner-an-original_zbcr.jpg" Aspect="AspectFill" Clicked="Hello"></ImageButton>
+                </Frame>
+
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Source="https://wallpaperaccess.com/full/6993439.png" Aspect="AspectFill" Clicked="Hello"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://fondosmil.com/fondo/27335.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0" HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://c.wallhere.com/photos/2a/cb/Breaking_Bad_Heisenberg_Walter_White_Aaron_Paul_Bryan_Cranston-241238.jpg!d" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://terrigen-cdn-dev.marvel.com/content/prod/1x/arch_digital_keyart_teaser_v4_lg.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://static.esplay.io/tvshow/cover/original/064a97792c6904301092b89404390383.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://m.media-amazon.com/images/M/MV5BZTA3ZTI1YWMtZTY4NC00NmRiLTk3NDUtNGQ4MDVlYmJmODQ1XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://www.seriesypelas.com/wp-content/uploads/2021/04/coverwandavision.png" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://terrigen-cdn-dev.marvel.com/content/prod/2x/falcws_lob_crd_03.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://wallpapercave.com/wp/wp7126871.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://www.tvguide.com/a/img/catalog/provider/1/1/1-6482810627.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://images-na.ssl-images-amazon.com/images/I/81v5yKydafL.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+            </FlexLayout>
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://images-na.ssl-images-amazon.com/images/I/81v5yKydafL.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://vistapointe.net/images/narcos-2.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+
+            <FlexLayout Margin="0" Padding="0"  HeightRequest="140">
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://m.media-amazon.com/images/M/MV5BMjE4YjZkNWUtOWFkZi00YTE5LTk0M2UtYWU4N2ViZjg4ZDE4XkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://wallpaperaccess.com/full/2052704.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+                <Frame Padding="0" CornerRadius="0" BackgroundColor="White"
+               HeightRequest="150" WidthRequest="150"
+               HasShadow="True" Margin="0" 
+               HorizontalOptions="CenterAndExpand">
+                    <ImageButton Clicked="Hello" Source="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg" Aspect="AspectFill"></ImageButton>
+                </Frame>
+
+            </FlexLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

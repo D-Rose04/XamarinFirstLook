@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinExample.Views.Books"
+             BackgroundColor="#b09ad6">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+            <Image Source="https://i.pinimg.com/474x/93/4a/32/934a32eca14dad2d1227c295b3f9b9fb.jpg" WidthRequest="150"></Image>
+            <Label Text="Esta opcion se encuetra en fase de desarrollo, pronto estara disponible en una proxima versión."/>
+            <Frame Background="#F5F5DC" CornerRadius="30" Padding="5">
+                <Button CornerRadius="25" Text="Disponible pronto" BackgroundColor="#ffe97d"></Button>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
